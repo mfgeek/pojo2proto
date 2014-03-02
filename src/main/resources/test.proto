@@ -1,0 +1,8 @@
+package com.mfgeek.gb.proto;
+option java_outer_classname = "TestObj";
+message Test {
+	required int32 id = 1 ;
+	required string username = 2 ;
+	required string password = 3 ;
+	required int64 money = 4 ;
+}
